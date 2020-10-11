@@ -44,4 +44,4 @@
 
 ## Status of project
 #### Task 1,2,3 has been done completely With both front end and backend
-#### Task 4 the backend ( python code ) to extract and display the respective graph is done  
+#### For task 4, If the inputs are given you will get the output graph correspondingly but it is working only in local server, as we could not deploy our python algorithm as a global host we made to work in local host.  We kept screenshots and the algorithm file (submitted in repository). 
