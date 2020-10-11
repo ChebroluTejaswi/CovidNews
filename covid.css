@@ -1,0 +1,337 @@
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+
+}
+.flex-row{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+/* -----------------Nav bar -------------------*/
+.nav{
+    background-color:#479ed8;
+    padding: 0.2rem;
+    height:0rem;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    min-height: 12vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index:10;
+    top:0;
+}
+.nav .nav-menu{
+    justify-content: space-around;
+}
+
+.nav-brand img{
+    height:12vh;
+    width:100px;
+}
+
+.nav .nav-items{
+    display: flex;
+    margin: 0;
+}
+.nav .nav-items .nav-link{
+    padding: 1.1rem 1rem;
+    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    position: relative;
+    font-family: var(--Lexend);
+
+}
+.nav .nav-items .nav-link:hover{
+    background-color:#d5e9f7;
+    color: black;
+   
+}
+.nav .nav-items .nav-link:hover a{
+    color:var(--white)
+}
+
+.nav .nav-brand a{
+    font-size:1.6rem;
+    padding:1rem 0;
+    font-size:1.6rem;
+    position: relative;
+    font-family: var(--Abel);
+}
+.nav.social{
+    padding:1.4rem 0;
+    
+}
+.nav.social i{
+    padding:0 .2rem ;
+}
+.nav .social i:hover{
+    color:#a1c4cf;
+}
+
+/* -------X----------Nav bar ------X-------------*/
+.first{
+        display: grid;
+        padding:2rem;
+        margin:2rem;
+        grid-template-columns:48% 48%;
+        justify-content:space-between;
+        
+    }
+    @import url('https://fonts.googleapis.com/css?family=Gochi+Hand');
+
+.content {
+  background-color: turquoise;
+  padding:2rem;
+        margin:2rem;
+}
+
+.animation {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 4em;
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  margin: auto;
+  display: block;
+  
+  -webkit-animation: bounce .3s ease infinite alternate;
+  
+  color: #FFF;
+  text-align: center;
+  line-height: 100px;
+  text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -30px;
+    text-shadow: 0 1px 0 #CCC,
+                 0 2px 0 #CCC,
+                 0 3px 0 #CCC,
+                 0 4px 0 #CCC,
+                 0 5px 0 #CCC,
+                 0 6px 0 #CCC,
+                 0 7px 0 #CCC,
+                 0 8px 0 #CCC,
+                 0 9px 0 #CCC,
+                 0 30px 30px rgba(0, 0, 0, .3);
+  }
+}
+    .primary_contacts{
+        background-color:#479ed8;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+        text-align:center;
+    }
+    a:hover {
+        color: red;
+    }
+    a:link{
+        color:white;
+    }
+    a:active{
+        color:rgb(255, 255, 255);
+    }
+    a:visited{
+        color:none;
+    }
+    
+    .tab { 
+        width:0%;
+        margin-left: 27%;
+        border: 7px solid #479ed8
+    } 
+    
+    
+    table {
+        margin-top: 30px;
+        width: 60%;
+        margin-left: 40px;
+      }
+    th, td {
+        text-align: left;
+        padding: 8px;
+        font-size:25px;
+      }
+      th {
+        background-color: #479ed8;
+        color: white;
+        border-color:  black;
+      }
+      .pc1{
+        display: grid;
+        grid-template-columns: 48% 48%;
+      }
+      .edit_1{
+        font-family: sans-serif;
+        box-sizing: border-box;
+        background-color: #d7eaf7;
+        box-shadow: 5px 5px 5px 5px rgb(79, 188, 231);
+        height: 25rem;
+    }
+    .des_1{
+        background-color: #479ed8;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: white;
+        margin-top:2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5rem;
+        padding-right: 10px;
+
+    }
+    .guide{
+        margin-top: 0rem;
+        background-color:#479ed8;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+        width: 100%;
+    }
+    .des_2{
+        background-color: #479ed8;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: white;
+        margin-top:1rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 7rem;
+    }
+    .pc2 img {
+        align-items: center;
+        align-items: center;
+        height: 25rem;
+        padding: 2rem 2rem;
+    }
+    .pc2{
+        text-align: center;
+    }
+    .pc2 table {
+        margin-top: 30px;
+        width: 0%;
+      }
+      .graph{
+        background-color:#479ed8;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .pc4{
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+      .edit_4{
+        font-family: sans-serif;
+        box-sizing: border-box;
+        background-color: #d7eaf7;
+        box-shadow: 5px 5px 5px 5px rgb(79, 188, 231);
+        height: 25rem;
+    }
+    .graph{
+        background-color:#479ed8;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+    }
+    .pc4{
+        display: grid;
+        grid-template-columns: 45% 55%;
+    }
+      .edit_4{
+        font-family: sans-serif;
+        box-sizing: border-box;
+        background-color: #d7eaf7;
+        box-shadow: 5px 5px 5px 5px rgb(79, 188, 231);
+        height: 25rem;
+    }
+    .box3b{
+        background-color:#479ed8;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+        width: 100%;
+    }
+    .edit3b{
+        box-sizing: border-box;
+        background-color: #d7eaf7;
+        box-shadow: 5px 5px 5px 5px rgb(79, 188, 231);
+        text-align: center;
+    }
+    
+    .input3b{
+        font-size:20px ;
+        height:25px;width: 200px;
+    }
+    
+    .textbox3b{
+        font-family:sans-serif;
+        color: white;
+        font-size:25px;
+        background-color: #479ed8;   
+        padding-top: 20px;
+        padding-left: 5rem;
+        padding-right: 10px;
+    }
+    .box3a{
+        background-color:#479ed8;
+        font-size: 25px;
+        color: white;
+        font-family: sans-serif;
+        width: 100%;
+        height:30%;
+    }
+    .tab3a { 
+        width:80%;
+        font-size:30px;
+        color:#d5e9f7;
+    }
+    .edit3a{
+        box-sizing: border-box;
+        background-color: #d7eaf7;
+        margin-top: 2rem;
+        box-shadow: 5px 5px 5px 5px rgb(79, 188, 231);
+        text-align: center;
+    }
+    .textbox3a{
+        text-align: center;
+        background-color: #479ed8;
+        font-size: 25px;
+        font-family: sans-serif;
+        color: white;
+        margin-top:2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .image3a{
+    position:absolute;
+    top: 37%;
+    left: 15%;
+    width :20%;
+    }
+    .input3a{
+    font-size:25px ;
+    width: 370px;
+    }
